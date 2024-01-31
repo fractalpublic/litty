@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         <a href="/">
           <Image
             className="logo"
-            src="https://black_hole-3kf-1-y4232899.deta.app/api/photo/hlqpn906wbqj.png"
+            src="/wittybig.png"
             height={300}
             width={300} // Adjust width as needed
             alt="Topbar Logo"
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
             marginLeft: 'auto',
             marginRight: 'auto',
           }}
-          src="https://black_hole-3kf-1-y4232899.deta.app/api/photo/9v1yhtaxrxn9.png"
+          src="/wittybig.png"
           alt="Header Logo"
           height={400} // Adjust height as needed
           width={800} // Adjust width as needed
