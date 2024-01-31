@@ -61,18 +61,16 @@ const Home: React.FC = () => {
         </p>
       </body>
       <footer style={{ textAlign: 'center' }}>
-        <p>
-          <a href="/">witty</a> is licensed under{' '}
+        
+        <i>
+          <small>witty (flame) 0.2.0<br /><i>made with love from the witty team ♥</i><br /><a href="/">witty</a> is licensed under{' '}
           <a
             href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
             target="_blank"
             rel="license noopener noreferrer"
             style={{ display: 'inline-block' }}
           >
-            CC BY-NC-ND 4.0</a>
-        </p>
-        <i>
-          <small>witty (flame) 0.2.0<br /><i>made with love from the witty team ♥</i></small>
+            CC BY-NC-ND 4.0</a></small>
         </i>
       </footer>
     </html>
