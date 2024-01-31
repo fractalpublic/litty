@@ -72,8 +72,7 @@ const Home: React.FC = () => {
             CC BY-NC-ND 4.0</a>
         </p>
         <i>
-          <p>made with love from the witty team ♥</p>
-          <small>witty (flame) 0.2.0</small>
+          <small>witty (flame) 0.2.0<br /><i>made with love from the witty team ♥</i></small>
         </i>
       </footer>
     </html>
