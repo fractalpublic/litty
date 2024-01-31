@@ -1,6 +1,7 @@
 // pages/index.tsx
 
 import { ReactNode } from 'react';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
   return (
@@ -12,10 +13,7 @@ const Home: React.FC = () => {
         {/* Assuming Astro is defined somewhere */}
         {/* <meta name="generator" content={Astro.generator} /> */}
         <title>Witty.dev</title>
-        <link
-          rel="preconnect"
-          href="https://fonts.googleapis.com"
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -25,19 +23,21 @@ const Home: React.FC = () => {
           href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
           rel="stylesheet"
         />
-        <script src="myscript.js" type="text/javascript"></script>
+        <script src="myscript.js" type="text/javascript" async></script>
       </head>
       <body>
         <a href="/">
-          <img
+          <Image
             className="logo"
             src="https://black_hole-3kf-1-y4232899.deta.app/api/photo/hlqpn906wbqj.png"
-            height="300"
+            height={300}
+            width={300} // Adjust width as needed
+            alt="Logo"
           />
         </a>
 
         <br />
-        <img
+        <Image
           style={{
             minWidth: '70px',
             maxWidth: '700px',
@@ -47,6 +47,9 @@ const Home: React.FC = () => {
             marginRight: 'auto',
           }}
           src="https://black_hole-3kf-1-y4232899.deta.app/api/photo/9v1yhtaxrxn9.png"
+          alt="Image description"
+          height={400} // Adjust height as needed
+          width={800} // Adjust width as needed
         />
 
         <p>
