@@ -1,4 +1,3 @@
-// pages/index.tsx
 
 import { ReactNode } from 'react';
 import Image from 'next/image';
@@ -29,8 +28,6 @@ const Home: React.FC = () => {
             className="logo"
             src="/wittybig.png"
             alt="Topbar Logo"
-            height={300}
-            width={300} // Adjust width as needed
           />
         </a>
 
