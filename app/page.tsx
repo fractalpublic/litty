@@ -64,26 +64,9 @@ const Home: React.FC = () => {
         </p>
       </body>
       <footer style={{ textAlign: 'center' }}>
-        <p
-          xmlns:cc="http://creativecommons.org/ns#"
-          xmlns:dct="http://purl.org/dc/terms/"
-        >
-          <a
-            property="dct:title"
-            rel="cc:attributionURL"
-            href="https://wittydev.repl.co"
-          >
-            Witty
-          </a>{' '}
-          by{' '}
-          <a
-            rel="cc:attributionURL dct:creator"
-            property="cc:attributionName"
-            href="https://www.youtube.com/@driftwooddev"
-          >
-            Driftwood
-          </a>{' '}
-          is licensed under{' '}
+        <p>
+          <a href="https://wittydev.repl.co">Witty</a> by{' '}
+          <a href="https://www.youtube.com/@driftwooddev">Driftwood</a> is licensed under{' '}
           <a
             href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
             target="_blank"
