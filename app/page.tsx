@@ -62,7 +62,7 @@ const Home: React.FC = () => {
       </body>
       <footer style={{ textAlign: 'center' }}>
         <p>
-          <a href="https://wittydev.repl.co">witty</a> is licensed under{' '}
+          <a href="/">witty</a> is licensed under{' '}
           <a
             href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
             target="_blank"
