@@ -35,3 +35,8 @@
 	.logo {
 		height: 50px;
 	}
+
+a {
+ color: inherit;
+ font-size: inherit;
+}
