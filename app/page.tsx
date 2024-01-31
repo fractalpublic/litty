@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         <a href="/">
           <img
             className="logo"
-            src="/wittybig.png"
+            src="/wittysmall.png"
             alt="Topbar Logo"
           />
         </a>
