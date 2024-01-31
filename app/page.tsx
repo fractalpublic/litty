@@ -40,14 +40,13 @@ const Home: React.FC = () => {
             minWidth: '70px',
             maxWidth: '700px',
             width: '100%',
+            height: 'auto',
             display: 'block',
             marginLeft: 'auto',
             marginRight: 'auto',
           }}
           src="/wittybig.png"
           alt="Header Logo"
-          height={404} // Adjust height as needed
-          width={900} // Adjust width as needed
         />
 
         <p>
