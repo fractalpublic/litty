@@ -25,17 +25,17 @@ const Home: React.FC = () => {
       </head>
       <body>
         <a href="/">
-          <Image
+          <img
             className="logo"
             src="/wittybig.png"
+            alt="Topbar Logo"
             height={300}
             width={300} // Adjust width as needed
-            alt="Topbar Logo"
           />
         </a>
 
         <br />
-        <Image
+        <img
           style={{
             minWidth: '70px',
             maxWidth: '700px',
