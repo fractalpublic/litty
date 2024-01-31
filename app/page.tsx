@@ -69,7 +69,7 @@ const Home: React.FC = () => {
             rel="license noopener noreferrer"
             style={{ display: 'inline-block' }}
           >
-            CC BY-NC-ND 4.0
+            CC BY-NC-ND 4.0</a>
         </p>
         <i>
           <p>made with love from the witty team ♥</p>
