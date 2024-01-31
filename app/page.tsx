@@ -17,7 +17,7 @@ const Home: React.FC = () => {
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
           rel="stylesheet"
         />
         <script src="myscript.js" type="text/javascript" async></script>
