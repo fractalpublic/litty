@@ -10,9 +10,7 @@ const Home: React.FC = () => {
         <meta charSet="utf-8" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width" />
-        {/* Assuming Astro is defined somewhere */}
-        {/* <meta name="generator" content={Astro.generator} /> */}
-        <title>Witty.dev</title>
+        <title>Witty</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -32,7 +30,7 @@ const Home: React.FC = () => {
             src="https://black_hole-3kf-1-y4232899.deta.app/api/photo/hlqpn906wbqj.png"
             height={300}
             width={300} // Adjust width as needed
-            alt="Logo"
+            alt="Topbar Logo"
           />
         </a>
 
@@ -47,7 +45,7 @@ const Home: React.FC = () => {
             marginRight: 'auto',
           }}
           src="https://black_hole-3kf-1-y4232899.deta.app/api/photo/9v1yhtaxrxn9.png"
-          alt="Image description"
+          alt="Header Logo"
           height={400} // Adjust height as needed
           width={800} // Adjust width as needed
         />
@@ -68,8 +66,7 @@ const Home: React.FC = () => {
       </body>
       <footer style={{ textAlign: 'center' }}>
         <p>
-          <a href="https://wittydev.repl.co">Witty</a> by{' '}
-          <a href="https://www.youtube.com/@driftwooddev">Driftwood</a> is licensed under{' '}
+          <a href="https://wittydev.repl.co">Witty</a> is licensed under{' '}
           <a
             href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
             target="_blank"
