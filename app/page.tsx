@@ -46,8 +46,8 @@ const Home: React.FC = () => {
           }}
           src="/wittybig.png"
           alt="Header Logo"
-          height={400} // Adjust height as needed
-          width={800} // Adjust width as needed
+          height={404} // Adjust height as needed
+          width={900} // Adjust width as needed
         />
 
         <p>
