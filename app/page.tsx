@@ -62,7 +62,7 @@ const Home: React.FC = () => {
       </body>
       <footer style={{ textAlign: 'center' }}>
         <p>
-          <a href="https://wittydev.repl.co">Witty</a> is licensed under{' '}
+          <a href="https://wittydev.repl.co">witty</a> is licensed under{' '}
           <a
             href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
             target="_blank"
@@ -70,26 +70,10 @@ const Home: React.FC = () => {
             style={{ display: 'inline-block' }}
           >
             CC BY-NC-ND 4.0
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
-            />
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
-            />
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
-            />
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"
-            />
-          </a>
         </p>
         <i>
-          <p>made with love and hate from the witty team</p>
+          <p>made with love from the witty team ♥</p>
+          <small>witty (flame) 0.2.0</small>
         </i>
       </footer>
     </html>
