@@ -33,9 +33,9 @@ const Home: React.FC = () => {
 
         <br />
         <h99>404</h99>
-        <h1>it seems you're in the wrong place!</h1>
+        <h1>it seems you&apos;re in the wrong place!</h1>
         <p>
-          <small>let's get you back on track</small>
+          <small>let&apos;s get you back on track</small>
           <br />
           <a href="/">back to home</a>
         </p>
