@@ -32,7 +32,7 @@ const Home: React.FC = () => {
         </a>
 
         <br />
-        <h99>404</h99>
+        <h1 className="h99">404</h1>
         <h1>it seems you&apos;re in the wrong place!</h1>
         <p>
           <small>let&apos;s get you back on track</small>
