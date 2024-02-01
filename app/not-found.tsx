@@ -1,4 +1,3 @@
-// pages/index.tsx
 
 import { ReactNode } from 'react';
 import Image from 'next/image';
@@ -18,29 +17,27 @@ const Home: React.FC = () => {
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
           rel="stylesheet"
         />
         <script src="myscript.js" type="text/javascript" async></script>
       </head>
       <body>
         <a href="/">
-          <Image
+          <img
             className="logo"
-            src="https://black_hole-3kf-1-y4232899.deta.app/api/photo/hlqpn906wbqj.png"
-            height={300}
-            width={300} // Adjust width as needed
+            src="/wittysmall.png"
             alt="Topbar Logo"
           />
         </a>
 
         <br />
-        
-        <h1>404 not found</h1>
+        <h99>404</h99>
+        <h1>it seems you're in the wrong place!</h1>
         <p>
-          <small>explore our world</small>
+          <small>let's get you back on track</small>
           <br />
-          <a href="/recent">browse wittys</a>
+          <a href="/">back to home</a>
         </p>
         <hr />
         <p>
@@ -52,35 +49,16 @@ const Home: React.FC = () => {
         </p>
       </body>
       <footer style={{ textAlign: 'center' }}>
-        <p>
-          <a href="https://wittydev.repl.co">Witty</a> is licensed under{' '}
+        
+        <i>
+          <small>witty (flame) 0.2.0<br /><i>made with love from the witty team ♥</i><br /><a href="/">witty</a> is licensed under{' '}
           <a
             href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
             target="_blank"
             rel="license noopener noreferrer"
             style={{ display: 'inline-block' }}
           >
-            CC BY-NC-ND 4.0
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
-            />
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
-            />
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
-            />
-            <img
-              style={{ height: '22px!important', marginLeft: '3px', verticalAlign: 'text-bottom' }}
-              src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"
-            />
-          </a>
-        </p>
-        <i>
-          <p>made with love and hate from the witty team</p>
+            CC BY-NC-ND 4.0</a></small>
         </i>
       </footer>
     </html>
