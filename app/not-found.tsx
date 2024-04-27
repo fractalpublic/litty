@@ -32,6 +32,7 @@ const Home: React.FC = () => {
         </a>
 
         <br />
+<div style={{ textAlign: 'center' }}>
         <h1 className="h99">404</h1>
         <h1>it seems you&apos;re in the wrong place!</h1>
         <p>
@@ -47,6 +48,7 @@ const Home: React.FC = () => {
           <br />
           <a href="/credits">credits</a>
         </p>
+</div>
       </body>
       <footer style={{ textAlign: 'center' }}>
         
