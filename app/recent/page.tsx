@@ -20,13 +20,17 @@ const Home: React.FC = () => {
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
           rel="stylesheet"
         />
+  <link
+          href="/witty/globals.css"
+          rel="stylesheet"
+        />
         <script src="myscript.js" type="text/javascript" async></script>
       </head>
       <body>
-        <a href="/">
+        <a href="/witty">
           <img
             className="logo"
-            src="/wittysmall.png"
+            src="/witty/wittysmall.png"
             alt="Topbar Logo"
           />
         </a>
@@ -34,15 +38,15 @@ const Home: React.FC = () => {
         <br />
         <h1 className="h99">browse</h1>
         <h1>sorted newest to oldest</h1>
-        <button><a href="/oldest">flip the list</a></button>
+        <button><a href="/witty/oldest">flip the list</a></button>
         <h1 className="h99">NO CONTENT</h1>
         <hr />
         <p>
           <small>boring stuff</small>
           <br />
-          <a href="/login">login (beta)</a>
+          <a href="/witty/login">login (beta)</a>
           <br />
-          <a href="/credits">credits</a>
+          <a href="/witty/credits">credits</a>
         </p>
       </body>
       <footer style={{ textAlign: 'center' }}>
