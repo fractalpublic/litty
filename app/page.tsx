@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         <script src="myscript.js" type="text/javascript" async></script>
       </head>
       <body>
-        <a href="/">
+        <a href="/witty">
           <img
             className="logo"
             src="/witty/wittysmall.png"
