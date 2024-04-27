@@ -4,23 +4,23 @@
 		text-align: center;
 		margin-top: 5%;
 		font-size: 30px;
-		font-family: 'IBM Plex Sans', sans-serif;
+		font-family: 'Segoe UI', -apple-system, sans-serif;
 	}
         .h99 {
 		text-align: center;
 		margin-top: 5%;
 		font-size: 100px;
-		font-family: 'IBM Plex Sans', sans-serif;
+		font-family: 'Segoe UI', -apple-system, sans-serif;
 	}
 	p, a {
 		text-align: center;
 		font-size: 20px;
-		font-family: 'IBM Plex Sans', sans-serif;
+		font-family: 'Segoe UI', -apple-system, sans-serif;
 	}
 
   h2, h3, textarea, input {
 		margin-top: 25%;
-		font-family: 'IBM Plex Sans', sans-serif;
+		font-family: 'Segoe UI', -apple-system, sans-serif;
   }
 
   h3 {
@@ -34,7 +34,7 @@
   	small {
 		text-align: center;
 		font-size: 15px;
-		font-family: 'IBM Plex Sans', sans-serif;
+		font-family: 'Segoe UI', -apple-system, sans-serif;
     color: #757575;  
     }
   
