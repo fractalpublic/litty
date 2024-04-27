@@ -27,7 +27,7 @@ const Home: React.FC = () => {
         <script src="myscript.js" type="text/javascript" async></script>
       </head>
       <body>
-        <a href="/">
+        <a href="/witty">
           <img
             className="logo"
             src="/witty/wittysmall.png"
@@ -42,15 +42,15 @@ const Home: React.FC = () => {
         <p>
           <small>let&apos;s get you back on track</small>
           <br />
-          <a href="/">back to home</a>
+          <a href="/witty">back to home</a>
         </p>
         <hr />
         <p>
           <small>boring stuff</small>
           <br />
-          <a href="/login">login (beta)</a>
+          <a href="/witty/login">login (beta)</a>
           <br />
-          <a href="/credits">credits</a>
+          <a href="/witty/credits">credits</a>
         </p>
 </div>
       </body>
