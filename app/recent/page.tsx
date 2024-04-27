@@ -37,7 +37,7 @@ const Home: React.FC = () => {
 
         <br />
         <h1 className="h99" style={{ marginBottom: '20px' }}>browse</h1>
-        <h1>sorted newest to oldest</h1>
+        <h1 style={{ marginTop: '20px' }}>sorted newest to oldest</h1>
         <button><a href="/witty/oldest">flip the list</a></button>
         <h1 className="h99">NO CONTENT</h1>
         <hr />
