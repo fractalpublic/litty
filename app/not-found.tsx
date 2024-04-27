@@ -20,6 +20,10 @@ const Home: React.FC = () => {
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
           rel="stylesheet"
         />
+          <link
+          href="/witty/globals.css"
+          rel="stylesheet"
+        />
         <script src="myscript.js" type="text/javascript" async></script>
       </head>
       <body>
