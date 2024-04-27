@@ -36,10 +36,11 @@ const Home: React.FC = () => {
         </a>
 
         <br />
-        <h1 className="h99" style={{ marginBottom: '20px' }}>browse</h1>
-        <h1 style={{ marginTop: '20px' }}>sorted newest to oldest</h1>
+<div style={{ textAlign: 'center' }}>
+        <h1 className="h99" style={{ marginBottom: '20px' }}>latest wittys</h1>
+  
         <button><a href="/witty/oldest">flip the list</a></button>
-        <h1 className="h99">NO CONTENT</h1>
+        <h1 className="h99">[NO CONTENT]</h1>
         <hr />
         <p>
           <small>boring stuff</small>
@@ -48,6 +49,7 @@ const Home: React.FC = () => {
           <br />
           <a href="/witty/credits">credits</a>
         </p>
+</div>
       </body>
       <footer style={{ textAlign: 'center' }}>
         
