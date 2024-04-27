@@ -30,7 +30,7 @@ const Home: React.FC = () => {
         <a href="/">
           <img
             className="logo"
-            src="/wittysmall.png"
+            src="/witty/wittysmall.png"
             alt="Topbar Logo"
           />
         </a>
@@ -46,22 +46,22 @@ const Home: React.FC = () => {
             marginLeft: 'auto',
             marginRight: 'auto',
           }}
-          src="/wittybig.png"
+          src="/witty/wittybig.png"
           alt="Header Logo"
         />
 
         <p>
           <small>explore our world</small>
           <br />
-          <a href="/recent">browse wittys</a>
+          <a href="/witty/recent">browse wittys</a>
         </p>
         <hr />
         <p>
           <small>boring stuff</small>
           <br />
-          <a href="/login">login (beta)</a>
+          <a href="/witty/login">login (beta)</a>
           <br />
-          <a href="/credits">credits</a>
+          <a href="/witty/credits">credits</a>
         </p>
       </body>
       <footer style={{ textAlign: 'center' }}>
