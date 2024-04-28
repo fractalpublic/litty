@@ -1,16 +1,20 @@
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@font-face {
+  font-family: plex;
+  src: url(/witty/plex.ttf);
+}
   
 	h1 {
 		text-align: center;
 		margin-top: 5%;
 		font-size: 30px;
-		font-family: 'Segoe UI', -apple-system, sans-serif;
+		font-family: 'plex', 'Segoe UI', -apple-system, sans-serif;
 	}
         .h99 {
 		text-align: center;
 		margin-top: 5%;
 		font-size: 100px;
-		font-family: 'Segoe UI', -apple-system, sans-serif;
+		font-family: 'plex', 'Segoe UI', -apple-system, sans-serif;
 	}
 	p, a {
 		text-align: center;
