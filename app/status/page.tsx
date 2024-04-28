@@ -48,7 +48,7 @@ const Home: React.FC = () => {
             marginLeft: 'auto',
             marginRight: 'auto',
           }}
-          src="https://wwwwwittyyyyy.loca.lt"
+          src="https://wwwwwittyyyyy.loca.lt/api/testconnection"
           alt="status check"
         />
 
