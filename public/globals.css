@@ -8,22 +8,26 @@
 		text-align: center;
 		margin-top: 5%;
 		font-size: 30px;
+		  color: #f0f2f5;
 		font-family: 'plex', 'Segoe UI', -apple-system, sans-serif;
 	}
         .h99 {
 		text-align: center;
 		margin-top: 5%;
+		  color: #f0f2f5;
 		font-size: 100px;
 		font-family: 'plex', 'Segoe UI', -apple-system, sans-serif;
 	}
 	p, a {
 		text-align: center;
 		font-size: 20px;
+		  color: #f0f2f5;
 		font-family: 'Segoe UI', -apple-system, sans-serif;
 	}
 
   h2, h3, textarea, input {
 		margin-top: 25%;
+	  color: #f0f2f5;
 		font-family: 'Segoe UI', -apple-system, sans-serif;
   }
 
@@ -32,14 +36,14 @@
   }
   hr {
     width: 50%;
-    border-color: #E0E0E0;
+    border-color: #f0f2f5;
   }
 
   	small {
 		text-align: center;
 		font-size: 15px;
 		font-family: 'Segoe UI', -apple-system, sans-serif;
-    color: #757575;  
+    color: #e0e0e0;  
     }
   
 	.logo {
@@ -49,4 +53,8 @@
 a {
  color: inherit;
  font-size: inherit;
+}
+
+html, body {
+	background-color: black;
 }
