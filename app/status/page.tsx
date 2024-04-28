@@ -51,10 +51,9 @@ const Home: React.FC = () => {
           src="https://wwwwwittyyyyy.loca.lt/api/testconnection"
           alt="status check"
         />
-        <video width="800" height="800" controls>
+        <video controls>
   <source src="https://wwwwwittyyyyy.loca.lt/api/wittys/moistcritikal-kys.mp4" type="video/mp4">
 
-  Your browser does not support the video tag.
 </video>
         <p>
           <small>explore our world</small>
