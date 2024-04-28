@@ -1,12 +1,11 @@
-
-
 import { ReactNode } from 'react';
 import Image from 'next/image';
+import Head from 'next/head'; // Import the Head component from Next.js
 
 const Home: React.FC = () => {
   return (
-    <html lang="en">
-      <head>
+    <>
+      <Head>
         <meta charSet="utf-8" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width" />
@@ -21,12 +20,12 @@ const Home: React.FC = () => {
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
           rel="stylesheet"
         />
-          <link
+        <link
           href="/witty/globals.css"
           rel="stylesheet"
         />
         <script src="myscript.js" type="text/javascript" async></script>
-      </head>
+      </Head>
       <body>
         <a href="/witty">
           <img
@@ -37,7 +36,7 @@ const Home: React.FC = () => {
         </a>
 
         <br />
-<h1>if the witty logo and other media display below, our server is working.</h1>
+        <h1>if the witty logo and other media display below, our server is working.</h1>
         <img
           style={{
             minWidth: '70px',
@@ -52,9 +51,8 @@ const Home: React.FC = () => {
           alt="status check"
         />
         <video controls>
-  <source src="https://wwwwwittyyyyy.loca.lt/api/wittys/moistcritikal-kys.mp4" type="video/mp4">
-
-</video>
+          <source src="https://wwwwwittyyyyy.loca.lt/api/wittys/moistcritikal-kys.mp4" type="video/mp4" />
+        </video>
         <p>
           <small>explore our world</small>
           <br />
@@ -70,7 +68,7 @@ const Home: React.FC = () => {
         </p>
       </body>
       <footer style={{ textAlign: 'center' }}>
-        
+
         <i>
           <small>witty (flame) 0.2.0<br /><i>made with love from the witty team ♥</i><br /><a href="/">witty</a> is licensed under{' '}
           <a
@@ -82,7 +80,7 @@ const Home: React.FC = () => {
             CC BY-NC-ND 4.0</a></small>
         </i>
       </footer>
-    </html>
+    </>
   );
 };
 
