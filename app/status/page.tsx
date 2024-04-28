@@ -37,7 +37,7 @@ const Home: React.FC = () => {
         </a>
 
         <br />
-<h1>if the witty logo displays below, our server is working.</h1>
+<h1>if the witty logo and other media display below, our server is working.</h1>
         <img
           style={{
             minWidth: '70px',
@@ -51,7 +51,11 @@ const Home: React.FC = () => {
           src="https://wwwwwittyyyyy.loca.lt/api/testconnection"
           alt="status check"
         />
+        <video width="800" height="800" controls>
+  <source src="https://wwwwwittyyyyy.loca.lt/api/wittys/moistcritikal-kys.mp4" type="video/mp4">
 
+  Your browser does not support the video tag.
+</video>
         <p>
           <small>explore our world</small>
           <br />
