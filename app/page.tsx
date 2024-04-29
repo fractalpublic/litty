@@ -5,7 +5,6 @@ import Image from 'next/image';
 const Home: React.FC = () => {
   return (
     <html lang="en">
-      <script src="https://uptime.betterstack.com/widgets/announcement.js" data-id="186251" type="text/javascript"></script>
       <head>
         <meta charSet="utf-8" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -35,7 +34,8 @@ const Home: React.FC = () => {
             alt="Topbar Logo"
           />
         </a>
-
+        <p> Status </p>
+        <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
         <br />
         <img
           style={{
