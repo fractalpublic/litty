@@ -30,9 +30,10 @@ const Home: React.FC = () => {
         <a href="/witty">
           <img
             className="logo"
-            src="/witty/wittysmall.png"
+            src="/witty/lightlogos/wittysmall.png"
             alt="Topbar Logo"
           />
+          <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameBorder="0" scrolling="no"></iframe>
         </a>
 
         <br />
