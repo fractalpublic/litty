@@ -1,1 +1,1 @@
-## The front page for Witty. A working clone of ditty
+## the front-end of witty, (soon to be) an entirely working clone of ditty.it.
