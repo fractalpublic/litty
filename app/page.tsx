@@ -35,7 +35,7 @@ const Home: React.FC = () => {
           />
         </a>
         <p> Status </p>
-        <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameBorder="0" scrolling="no"></iframe>
         <br />
         <img
           style={{
