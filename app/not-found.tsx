@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             src="/witty/lightlogos/wittysmall.png"
             alt="Topbar Logo"
           />
-          <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameBorder="0" scrolling="no"></iframe>
+        
         </a>
 
         <br />
@@ -67,6 +67,7 @@ const Home: React.FC = () => {
           >
             CC BY-NC-ND 4.0</a></small>
         </i>
+          <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameBorder="0" scrolling="no"></iframe>
       </footer>
     </html>
   );
