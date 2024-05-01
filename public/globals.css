@@ -8,26 +8,26 @@
 		text-align: center;
 		margin-top: 5%;
 		font-size: 30px;
-		  color: #f0f2f5;
+		  color: #E8E9EA;
 		font-family: 'plex', 'Segoe UI', -apple-system, sans-serif;
 	}
         .h99 {
 		text-align: center;
 		margin-top: 5%;
-		  color: #f0f2f5;
+		  color: #E8E9EA;
 		font-size: 100px;
 		font-family: 'plex', 'Segoe UI', -apple-system, sans-serif;
 	}
 	p, a {
 		text-align: center;
 		font-size: 20px;
-		  color: #f0f2f5;
+		  color: #E8E9EA;
 		font-family: 'Segoe UI', -apple-system, sans-serif;
 	}
 
   h2, h3, textarea, input {
 		margin-top: 25%;
-	  color: #f0f2f5;
+	  color: #E8E9EA;
 		font-family: 'Segoe UI', -apple-system, sans-serif;
   }
 
@@ -36,7 +36,7 @@
   }
   hr {
     width: 50%;
-    border-color: #f0f2f5;
+    border-color: #E8E9EA;
   }
 
   	small {
@@ -56,5 +56,5 @@ a {
 }
 
 html, body {
-	background-color: black;
+	background-color: #0F121A;
 }
