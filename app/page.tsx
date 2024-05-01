@@ -74,7 +74,7 @@ const Home: React.FC = () => {
       style={{ display: 'inline-block' }}
     >
       CC BY-NC-ND 4.0</a></small>
-  </i>
+  </i><br />
   <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameBorder="0" scrolling="no"></iframe>
 </footer>
 
