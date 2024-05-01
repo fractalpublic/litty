@@ -52,20 +52,22 @@ const Home: React.FC = () => {
         </p>
 </div>
       </body>
-      <footer style={{ textAlign: 'center' }}>
-        
-        <i>
-          <small>witty (flame) 0.2.0<br /><i>made with love from the witty team ♥</i><br /><a href="/">witty</a> is licensed under{' '}
-          <a
-            href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
-            target="_blank"
-            rel="license noopener noreferrer"
-            style={{ display: 'inline-block' }}
-          >
-            CC BY-NC-ND 4.0</a></small>
-        </i>
-         <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameBorder="0" scrolling="no"></iframe>
-      </footer>
+     <footer style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+  <div>
+    <i>
+      <small>witty (flame) 0.2.0<br /><i>made with love from the witty team ♥</i><br /><a href="/">witty</a> is licensed under{' '}
+      <a
+        href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
+        target="_blank"
+        rel="license noopener noreferrer"
+        style={{ display: 'inline-block' }}
+      >
+        CC BY-NC-ND 4.0</a></small>
+    </i>
+  </div>
+  <iframe src="https://wittystatus.betteruptime.com/badge?theme=dark" width="250" height="30" frameBorder="0" scrolling="no"></iframe>
+</footer>
+
     </html>
   );
 };
