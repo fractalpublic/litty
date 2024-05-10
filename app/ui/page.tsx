@@ -81,4 +81,4 @@ const UI: React.FC = () => {
   );
 };
 
-export default Home;
+export default UI;

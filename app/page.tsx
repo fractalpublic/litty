@@ -2,7 +2,7 @@
 import { ReactNode } from 'react';
 import Image from 'next/image';
 
-const home: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <html lang="en">
       <head>
