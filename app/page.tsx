@@ -52,7 +52,7 @@ const Home: React.FC = () => {
 
         <p>
        This version of Witty is now dead. Thank you for keeping up with the development of Witty.
-</br><small>sorry if I spooked you, for full context, the witty team has split up and &quot;witty&quot; is now dead. however, you can check out it&apos;s successor, litty.</small>
+<br /><small>sorry if I spooked you, for full context, the witty team has split up and &quot;witty&quot; is now dead. however, you can check out it&apos;s successor, litty.</small>
         </p>
       </body>
 <footer style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
